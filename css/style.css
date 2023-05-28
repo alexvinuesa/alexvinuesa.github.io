@@ -1,0 +1,232 @@
+/*Fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+/*Página principal*/
+
+/*Portada*/
+
+#portada-principal {
+    background-image: url(../images/portada.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.boton-registrarse {
+    background-color: black;
+    border-radius: 100px;
+}
+
+.header {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.nombre{
+    font-family: 'Bruno Ace Sc';
+}
+
+.eslogan{
+    font-family: 'EB Garamond';
+}
+/*Servicios*/
+#servicios {
+    justify-content: center;
+}
+
+#deporte {
+    background-image: url(../images/servicio-deportes.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    opacity: 0.8;
+    margin-right: 50px;
+}
+
+#ocio-nocturno {
+    background-image: url(../images/ocio-nocturno.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    opacity: 0.8;
+    margin-right: 50px;
+}
+
+#gastronomia {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    opacity: 0.8;
+}
+
+#servicio {
+    margin-top: 110px;
+}
+
+/*Clientes*/
+#clientes {
+    background-image: url(../images/clientes.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+/*Formulario*/
+
+#formulario {
+    background-image: url(../images/formulario.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    margin-top: 100px;
+}
+
+#form {
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+#boton-formulario {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    border-radius: 0px;
+    width: 140px;
+}
+
+/*Footer*/
+
+#footer {
+    padding-top: 20px;
+    background-color: black;
+}
+
+#footer2 {
+    padding-top: 20px;
+}
+
+
+/*Página deportes*/
+
+/*Portada*/
+#portada-deportes {
+    background-image: url(../images/portada-deportes.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+#deportes {
+    margin-top: 100px;
+}
+
+#buscar {
+    width: 180px;
+    border-radius: 100px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    padding-left: 15px;
+}
+
+#creardeporte {
+    background-image: url(../images/crear-deporte.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#creardeporte_texto {
+    padding: 30px;
+    background-color: white;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+
+
+.fotodeporte {
+    padding: 30px;
+}
+
+#crear {
+    width: 180px;
+    border-radius: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    padding-left: 15px;
+}
+
+#partners {
+    margin-bottom: 50px;
+}
+
+
+
+/*Pagina discoteca*/
+#portada-discoteca {
+    background-image: url(../images/portada-discoteca.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 800px;
+}
+
+
+
+/*Portada gastronomia*/
+
+#portada-gastronomia {
+    background-image: url(../images/portada-gastronomia.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 800px;
+}
+#buscargastronomia{
+    width: 180px;
+    border-radius: 100px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    padding-left: 15px;
+}
+
+#creargastronomia {
+    background-image: url(../images/bg_gastronomia.jpg);
+    padding: 0px;
+}
+.fotogastronomia{
+    margin-right: 0px;
+}
+
+@media (min-width: 767.98px){
+
+    #creargastronomia_texto {
+    padding-top: 110px;
+    padding-bottom: 90px;
+    padding-left: 90px;
+
+}
+}
+
+@media (min-width: 467.98px){
+
+    #creargastronomia_texto {
+    padding: 50px;
+}
+}
+
+#botongastronomia {
+    width: 180px;
+    border-radius: 100px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    padding-left: 15px;
+}
+
